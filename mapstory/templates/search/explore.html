@@ -35,9 +35,8 @@
 
                 <div> Content Type </div>
                     <ul>
-                        <!-- <li><a href="" ng-click="all_types()">All</a></li> -->
-                        <li><a href="" ng-click="add_single_query('type__in', 'layer')"></i> StoryLayer</a></li>
-                        <li><a href="" ng-click="add_single_query('type__in', 'mapstory')"></i> {{SITE_NAME}}</a></li>
+                        <li><a href="" ng-click="contentType('layer')"></i> StoryLayer</a></li>
+                        <li><a href="" ng-click="contentType('mapstory')"></i> {{SITE_NAME}}</a></li>
                     </ul>
                 <div> Category </div>
                 <div>
@@ -48,7 +47,7 @@
                                 <span ng-show="!toggle" class="pull-left"><i class="fa fa-check"></i></span>
                             </a>                                
                         </li>
-                        {% endverbatim %}                       
+                        {% endverbatim %}                
                     </ul>
                 </div>
                 <div>StoryTeller</div>
