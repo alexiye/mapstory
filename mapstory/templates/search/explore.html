@@ -43,7 +43,7 @@
                     <ul id="categories">   
                         {% verbatim %}
                         <li ng-repeat="category in categories"> 
-                            <a href="" data-value="{{ category.identifier }}" data-filter="category__identifier__in" ng-click="multiple_choice_listener($event)" ng-class="{active: category.active}">{{ category.gn_description }} {{category.count}}
+                            <a href="" data-value="{{ category.identifier }}" data-filter="category__identifier__in" ng-click="multiple_choice_listener($event)" ng-class="{active: category.active}">{{ category.gn_description}}{{category.count}}
                             </a>                                
                         </li>
                         {% endverbatim %}
